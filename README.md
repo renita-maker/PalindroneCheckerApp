@@ -1,88 +1,68 @@
-Palindrome Checker App
-📌 Project Objective
-
-The objective of this project is to develop a console-based Java application that checks whether a given string is a palindrome.
-This project helps in understanding basic Java concepts such as class creation, main method execution, static keyword usage, and console output.
-
 📌 Project Procedure
 Step 1: Created the Main Class
 
-Created a Java class named UseCase1PalindromeCheckerApp.
-This class acts as the main container for the application.
+Created a Java class named UseCase2PalindromeCheckerApp.
+
+This class contains the palindrome checking logic using a hardcoded string.
 
 Step 2: Implemented the Main Method
 
-Defined the main method:
+Defined the main() method as the entry point of the application.
 
-public static void main(String[] args)
+JVM starts execution from this method.
 
-This is the entry point of the application.
-The JVM starts execution from this method.
+Step 3: Hardcoded Palindrome String
 
-Step 3: Displayed Welcome Message (UC1)
+Stored the string "madam" inside a variable.
 
-Used System.out.println() statements to display:
+This string is the fixed input used for palindrome validation in this use case.
 
-Application Name
+Step 4: Implemented Palindrome Validation Logic
 
-Application Version
+Used a loop to compare characters from the start and end of the string.
 
-Short Description
+If any pair of characters don’t match, marked the string as not a palindrome.
 
-At this stage, no palindrome logic is implemented.
-The goal is to establish the startup flow of the application.
+Used a boolean flag isPalindrome to keep track of the result.
 
-Step 4: Compiled the Program
+Step 5: Displayed Result on Console
 
-Compiled the program using the command:
+Printed the original string.
 
-javac UseCase1PalindromeCheckerApp.java
+Printed whether the string is a palindrome or not based on the comparison.
 
-After successful compilation, a .class file was generated.
+Step 6: Compiled and Executed the Program
 
-Step 5: Executed the Program
+Compiled the program using:
+
+javac UseCase2PalindromeCheckerApp.java
 
 Ran the program using:
 
-java UseCase1PalindromeCheckerApp
+java UseCase2PalindromeCheckerApp
 
-The welcome message was displayed successfully on the console.
+Verified the output showed the correct palindrome result.
 
-📌 Project Flow
-
-Program starts.
-
-JVM invokes the main() method.
-
-Welcome message is displayed.
-
-Application is ready for next use case (Palindrome logic).
-
-📌 Use Case
-UC1: Application Entry & Welcome Message
-
-Actor: User
-
-Flow:
+🔄 Overall Flow of the Project (UC2)
 
 Program starts.
 
-JVM calls the main() method.
+JVM invokes main() method.
 
-Application name is displayed.
+Hardcoded string "madam" is checked.
 
-Application version is displayed.
+Characters from both ends are compared.
 
-Program ends or moves to next use case.
+Result (palindrome or not) is printed.
 
-Concepts Used:
+Program exits.
 
-Class
+🎯 Objective for UC2
 
-Main Method
+Demonstrate basic palindrome validation using a hardcoded string.
 
-Static Keyword
+Practice fundamental string manipulation and conditional checks.
 
-System.out.println()
+Display results using console output.
 
-Basic Flow Control
+Prepare for more advanced palindrome validation using user input and data structures in future use cases.
