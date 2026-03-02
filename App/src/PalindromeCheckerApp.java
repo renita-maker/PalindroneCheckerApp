@@ -1,4 +1,4 @@
-public class UseCase1PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     /**
      * Application entry point.
